@@ -38,7 +38,7 @@ function init() {
             }
         }
     };
-    if (document.getElementById("register-btn")) document.getElementById("register-btn").onclick = () => {
+    if (document.getElementById("security-question")) document.getElementById("register-btn").onclick = () => {
         if (noEmptyInput(["username", "password", "password-again", "security-question", "security-question-answer"])) {
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
