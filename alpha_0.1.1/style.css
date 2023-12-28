@@ -1,0 +1,103 @@
+/* for desktop */
+@media screen and (min-width: 630px) {
+
+    html {
+        height: 100%
+    }
+
+    body {
+        background-image: url("bgs/2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .opaque {
+        background-color: rgba(0, 0, 0, 0.75);
+        width: fit-content;
+    }
+
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .box {
+        padding: 50px;
+        border-radius: 5px;
+    }
+
+    input {
+        background-color: rgba(0, 0, 0, 0.75);
+        color: white;
+        border-color: #9FE5FF;
+        border-style: solid;
+        border-radius: 10px;
+        height: 48px;
+        width: 400px;
+        font-size: 20px;
+        margin: 0px;
+        padding-left: 20px;
+    }
+
+    button {
+        border-color: #9FE5FF;
+        border-style: solid;
+        border-radius: 10px;
+        background-color: #9FE5FF;
+        font-size: 20px;
+        height: 48px;
+    }
+
+    .btn-full-row {
+        width: 100%;
+    }
+
+    .btn-half-row {
+        width: 46%;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    #register-btn {
+        float: right;
+    }
+
+    h1 {
+        color: white;
+        font-size: 32px;
+        margin: 0px;
+    }
+
+    p {
+        color: white;
+        font-size: 20px;
+        margin: 0px;
+    }
+    
+    a {
+        font-size: 20px;
+        color: #FBB6C8;
+    }
+
+    .credit {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: max-content;
+        text-align: right;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        z-index: -1;
+    }
+
+}

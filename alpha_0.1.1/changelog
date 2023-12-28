@@ -1,0 +1,29 @@
+old signup webapp 0.1
+
+    added sign up function
+
+old signup webapp 0.2
+
+    added role selection 
+    added random background
+
+    fixed background image issue on mobile viewports
+
+old signup webapp 0.3
+
+    added logo
+    added the role "Defense - general"
+
+    fixed credit floating and blocking view when scrolling
+    fixed mobile view too wide issue
+    fixed encoding
+
+    rejected making repeated signup overwrite previous signup
+    reason: unprivileged user should not be able to edit all signups
+
+Alpha 0.1.0
+
+    DN happened and now there are need for much more contents, 
+    old project abandoned, start afresh
+    made color palette and designed UI aesthetics based on that of DN
+    front end for login, no backend yet
