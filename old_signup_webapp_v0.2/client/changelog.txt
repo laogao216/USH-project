@@ -1,0 +1,11 @@
+0.1
+
+added sign up function
+
+0.2
+
+added role selection 
+added random background
+
+fixed background image issue on mobile viewports
+

@@ -1,0 +1,22 @@
+0.1
+
+added sign up function
+
+0.2
+
+added role selection 
+added random background
+
+fixed background image issue on mobile viewports
+
+0.3
+
+added logo
+added the role "Defense - general"
+
+fixed credit floating and blocking view when scrolling
+fixed mobile view too wide issue
+fixed encoding
+
+rejected making repeated signup overwrite previous signup
+reason: unprivileged user should not be able to edit all signups

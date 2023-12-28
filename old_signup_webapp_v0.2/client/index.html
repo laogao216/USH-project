@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USH - WS signup in exile</title>
+</head>
+
+<body>
+    <div class="opaque signup-box">
+        <h1 style="display: inline;">My handle is: </h1>
+        <input type="text" id="name" name="name">
+        <br>
+        <h2 style="display: inline;">Role: </h2>
+        <select name="role" id="role" autocomplete="off">
+            <option value="-- select --">-- select --</option>
+            <option value="Defense - Area shield">Defense - A shield</option>
+            <option value="Defense - Blast shield">Defense - B shield</option>
+            <option value="Attack/Harass">Attack/Harass</option>
+            <option value="Violentspam">Violent spam</option>
+        </select>
+        <br>
+        <button id="signup-btn">sign me up!</button>
+    </div>
+
+    <div class="opaque list-box">
+        <h1>Signed up for this week:</h1>
+        <table id="signedup">
+        </table>
+        <p id="loading"><i>loading...</i></p>
+    </div>
+
+    <p id="credit" class="opaque"></p>
+</body>
+
+</html>

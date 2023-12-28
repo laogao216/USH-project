@@ -1,0 +1,80 @@
+html {
+    height: 100%
+}
+
+body {
+    background-image: url("bgs/2.jpg");
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opaque {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: max-content;
+    padding: 10px;
+}
+
+.signup-box {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h1,
+h2,
+table {
+    margin: 0px;
+}
+
+input,
+select {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 15px;
+    height: 32px;
+    font-size: 24px;
+}
+
+#signup-btn {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    height: 36px;
+    font-size: 24px;
+}
+
+.list-box {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+table {
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: left;
+}
+
+td,
+th {
+    font-size: 24px;
+    padding-left: 35px;
+    font-weight: 400;
+}
+
+p {
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+#credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: max-content;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}

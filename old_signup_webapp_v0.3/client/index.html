@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>USH official WS signup</title>
+</head>
+
+<body>
+    <div class="opaque signup-box">
+        <h1>My handle is: </h1>
+        <input type="text" id="name" name="name">
+        <br>
+        <h2>Role: </h2>
+        <select name="role" id="role" autocomplete="off">
+            <option value="-- select --">-- select --</option>
+            <option value="Defense - A shield">Defense - Area shield</option>
+            <option value="Defense - B shield">Defense - Blast shield</option>
+            <option value="Defense - general">Defense - general</option>
+            <option value="Attack/Harass">Attack/Harass</option>
+            <option value="Violent spam">Violent spam</option>
+        </select>
+        <br>
+        <button id="signup-btn">sign me up!</button>
+    </div>
+
+    <div class="opaque list-box">
+        <h1 id="list-title">Signed up for this week:</h1>
+        <table id="signedup">
+        </table>
+        <p id="loading"><i>loading...</i></p>
+    </div>
+
+    <p id="credit" class="opaque"></p>
+</body>
+
+</html>
