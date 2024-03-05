@@ -1,0 +1,17 @@
+User:
+    *username: str
+    hashed_password: str
+    security_question: str
+    hashed_security_question_answer: str
+    privilege_level: int
+
+0: unassigned
+1: member
+2: senior member
+3: officer
+4: first officer
+
+Signup:
+    *username: str
+    bs_role: str
+    miner_ts_role: str
